@@ -4,9 +4,11 @@ html {
 
 body {
   margin: 0;
+  text-align: center;
 }
 
 .header {
+  margin: 0;
   position: relative;
   padding-top: 150px;
   background-color: #e4f9f5;
@@ -61,6 +63,7 @@ body {
 .profilepic {
   position: relative;
   height: 180px;
+  padding: 20px;
   top: 35px;
   display: block;
   margin-left: auto;
@@ -92,9 +95,10 @@ body {
 }
 
 .book {
-  width: 175px;
-  height: 174.12px;
-  top: 1546px;
+  width: 150px;
+  height: 150px;
+  float: left;
+  padding-right: 30px;
 }
 
 .content__writing {
@@ -102,7 +106,8 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  text-align: center;
+  padding-left: 50;
+  text-align: left;
 }
 
 .content__writingbody {
@@ -110,6 +115,9 @@ body {
   font-family: "Merriweather", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  padding-right: 40px;
+  text-align: left;
+  padding-right: 300px;
 }
 
 .content__speaking {
@@ -117,6 +125,8 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 400;
+  padding-right: 50px;
+  text-align: right;
 }
 
 .content__speakingbody {
@@ -124,12 +134,17 @@ body {
   font-family: "Merriweather", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  text-align: right;
+  padding-left: 300px;
+  padding-bottom: 50px;
 }
 
 .speak {
-  width: 176px;
-  height: 176px;
+  width: 150px;
+  height: 150px;
   left: 1066px;
+  float: right;
+  padding-left: 30px;
 }
 
 .content__getintouch {
@@ -148,7 +163,8 @@ body {
   text-align: center;
 }
 
-.content_getintouchbody2 {
+.content__getintouchbody2 {
+  position: relative;
   color: #40514e;
   font-family: "Merriweather", sans-serif;
   font-size: 16px;
@@ -171,7 +187,7 @@ body {
   font-size: 19px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  text-align: center;
+  align-content: center;
 }
 .btn:hover {
   background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
@@ -188,8 +204,36 @@ body {
   width: 1721px;
   height: 178px;
   background-color: #66bfbf;
+  padding-top: 10px;
+  margin-top: 20px;
+  text-align: center;
 }
 
-.footer.white {
+.footer__white {
   color: white;
+  text-align: center;
+}
+
+.footer__linkedin {
+  font-family: "Monsterrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #11999e;
+  text-align: center;
+}
+
+.footer__instagram {
+  font-family: "Monsterrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #11999e;
+  text-align: center;
+}
+
+.footer__tiktok {
+  font-family: "Monsterrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #11999e;
+  text-align: center;
 }
