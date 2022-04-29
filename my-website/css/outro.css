@@ -1,0 +1,25 @@
+.outro__header {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.outro__body {
+  position: relative;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.outro__body2 {
+  color: #40514e;
+  font-weight: 400;
+  font-size: 13px;
+  font-family: "Merriweather", sans-serif;
+  text-align: center;
+  margin: 20px;
+}

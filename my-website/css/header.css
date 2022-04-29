@@ -1,0 +1,49 @@
+.header {
+  position: relative;
+  padding-top: 150px;
+  background-color: #e4f9f5;
+}
+
+.header__title {
+  margin: 0 0 24px;
+  color: #66bfbf;
+  font-family: "Sacramento", cursive;
+  font-size: 89px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.header__subtitle {
+  color: #66bfbf;
+  font-family: "Montserrat", san-serif;
+  font-size: 4rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 80px;
+}
+
+.header__pro {
+  text-decoration: underline;
+}
+
+.header__right-cloud {
+  position: absolute;
+  top: 54px;
+  right: 288px;
+}
+
+.header__left-cloud {
+  position: absolute;
+  top: 338px;
+  right: 1216px;
+  width: 150px;
+  height: 48px;
+}
+
+.header__bus {
+  position: relative;
+  top: 37px;
+  display: block;
+  margin: 0 auto;
+  width: 475px;
+}

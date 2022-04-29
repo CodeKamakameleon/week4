@@ -1,0 +1,30 @@
+.profilepic {
+  height: 180px;
+  padding: 20px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  max-width: 850px;
+  text-align: center;
+  margin: 105px auto 0;
+}
+
+.content__header {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.content__intro {
+  color: #40514e;
+  font-family: "Merriweather", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  text-align: center;
+}

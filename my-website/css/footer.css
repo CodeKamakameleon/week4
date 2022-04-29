@@ -1,0 +1,40 @@
+.footer {
+  position: relative;
+  height: 178px;
+  background-color: #66bfbf;
+  padding-top: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer__white {
+  color: white;
+  text-align: center;
+}
+
+.footer__linkedin {
+  font-family: "Monsterrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #11999e;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer__instagram {
+  font-family: "Monsterrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #11999e;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer__tiktok {
+  font-family: "Monsterrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #11999e;
+  text-align: center;
+  text-decoration: none;
+}

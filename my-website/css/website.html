@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <link rel="icon" type="ico" href="favicon" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
   </head>
 
   <body>
@@ -45,28 +45,41 @@
         forms of storytelling.
       </p>
 
-      <h2 class="content__myskills">My Skills.</h2>
-      <img class="book" src="../images/book.jpeg" alt="book" />
-      <p class="content__writing">Writing</p>
-      <p class="content__writingbody">
-        My love for reading began late in middle school and has continued into
-        my adult years. The stories I read began to inspire my own and I began
-        to write. I started off writing novels remotely for a publishing company
-        where my writing skills were quickly honed.
-      </p>
+      <div class="skill__content">
+        <h2 class="content__myskills">My Skills.</h2>
+        <div class="skill">
+          <div class="skill__imgwrapper">
+            <img class="skill__img1" src="../images/book.jpeg" alt="book" />
+          </div>
+          <div class="skill1">
+            <p class="skill1__header">Writing</p>
+            <p class="skill1__body">
+              My love for reading began late in middle school and has continued
+              into my adult years. The stories I read began to inspire my own
+              and I began to write. I started off writing novels remotely for a
+              publishing company where my writing skills were quickly honed.
+            </p>
+          </div>
+        </div>
+        <div class="skill2">
+          <div class="skill__imgwrapper2">
+            <img class="skill__img2" src="../images/speaking.png" alt="speak" />
+          </div>
+          <div class="skill2">
+            <p class="skill2__header">Speaking & Filming</p>
+            <p class="skill2__body">
+              After writing novels, I became a storyteller for the cultural side
+              of an online ocean-themed curriculum. While I wrote the curriculum
+              and interviewed cultural specialists, I also delivered much of the
+              content verbally, both on and off camera.
+            </p>
+          </div>
+        </div>
+      </div>
 
-      <img class="speak" src="../images/speaking.png" alt="speak" />
-      <p class="content__speaking">Speaking & Filming</p>
-      <p class="content__speakingbody">
-        After writing novels, I became a storyteller for the cultural side of an
-        online ocean-themed curriculum. While I wrote the curriculum and
-        interviewed cultural specialists, I also delivered much of the content
-        verbally, both on and off camera.
-      </p>
-
-      <h2 class="content__getintouch">Get In Touch</h2>
-      <p class="content__getintouchbody">Let's talk books</p>
-      <p class="content__getintouchbody2">
+      <h2 class="outro__header">Get In Touch</h2>
+      <p class="outro__body">Let's talk books</p>
+      <p class="outro__body2">
         Love stories as much as I do? Let's talk books, movies, TV shows and
         culture!
       </p>
@@ -74,24 +87,79 @@
       <div>
         <button class="btn">Contact Me</button>
       </div>
+    </main>
 
-      <div>
-        <footer class="footer">
-          <p>
-            <a
-              class="footer__linkedin"
-              href="https://www.linkedin.com/in/kamalani-brun-41b4b0235/"
-              >LinkedIn</a
-            >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a class="footer__instagram" href="https://www.instagram.com/"
-              >Instagram</a
-            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a class="footer__tiktok" href="https://www.tiktok.com/">TikTok</a>
-          </p>
-          <p class="footer__white">ⓒ 2022 Kamalani Brun @ Dev-Island</p>
+    <div>
+      <footer class="footer">
+        <p>
+          <a
+            class="footer__linkedin"
+            href="https://www.linkedin.com/in/kamalani-brun-41b4b0235/"
+            >LinkedIn</a
+          >
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a class="footer__instagram" href="https://www.instagram.com/"
+            >Instagram</a
+          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a class="footer__tiktok" href="https://www.tiktok.com/">TikTok</a>
+        </p>
+        <p class="footer__white">ⓒ 2022 Kamalani Brun @ Dev-Island</p>
+      </footer>
+    </div>
+
+    <div class="modal">
+      <div class="modal__overlay"></div>
+      <div class="modal__body">
+        <header class="modal__header">
+          Contact Me
+          <button
+            type="button"
+            class="modal__close-btn modal__close:focus"
+            data-dismis="modal"
+            aria-label="close"
+          >
+            &#x2715;
+          </button>
+        </header>
+
+        <div class="modal__content">
+          <form class="form">
+            <div class="form__element"></div>
+
+            <div class="form__element">
+              <label for="#name" class="form__label">Name</label>
+              <input
+                id="#name"
+                class="form__input"
+                type="text"
+                placeholder="Your name"
+              />
+
+              <label for="#email" class="form__label">Email Address</label>
+              <input
+                id="email"
+                name="email"
+                type="text"
+                class="form__input"
+                placeholder="Your email address"
+              />
+
+              <label for="#message" class="form__label">Message</label>
+              <textarea
+                id="Message"
+                name="Message"
+                cols="30"
+                rows="10"
+                class="form__input"
+              ></textarea>
+            </div>
+          </form>
+        </div>
+
+        <footer class="modal__footer">
+          <button class="modal__action">Send</button>
         </footer>
       </div>
-    </main>
+    </div>
   </body>
 </html>

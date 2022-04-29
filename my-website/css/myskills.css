@@ -1,0 +1,21 @@
+.skill {
+  display: flex;
+  margin: 0 auto;
+}
+
+.skill2 {
+  display: flex;
+  margin: 0 auto;
+}
+
+.skill__content {
+  flex-direction: column;
+}
+
+.content__myskills {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+  text-align: center;
+}
